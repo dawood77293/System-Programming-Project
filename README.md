@@ -43,14 +43,14 @@ The script asks questions one by one, takes the user's input, and checks for **e
 8. When Kali starts:
 - Default username: `kali`
 - Default password: `kali`  
-(For older versions: username `root`, password `toor`)
+(For older versions: username `root`, password `root`)
 
 9. After logging in, open the terminal and update the system using:
 
 ```bash
 sudo apt-get update
 sudo apt-get upgrade -y
-
+```
 ## ✅ Project Steps (Student Version)
 
 1. We installed **Kali Linux using VMware Player** on our computers.  
@@ -60,42 +60,40 @@ CTRL + ALT + T
 
 3. We created a new Bash script file using this command:  
 ```bash
-touch linux_quiz_full.sh
-We opened the file using the mousepad editor:
+touch Project.sh
+```
+4. We opened the file using the mousepad editor:
 
-bash
-Copy code
-mousepad linux_quiz_full.sh
-We copied and pasted our full Bash quiz script code into the file.
+```bash
+mousepad Project.sh
+```
 
-We saved the file and closed the editor.
+5. We wrote our code, saved the file and closed the editor.
 
-We gave the script permission to run using:
+6. We gave the script permission to run using:
 
-bash
-Copy code
-chmod +x linux_quiz_full.sh
-We ran the script using:
+```bash
+chmod +x Project.sh
+```
+7. We ran the script using:
 
-bash
-Copy code
-./linux_quiz_full.sh
-The program started showing Linux command questions.
+```bash
 
-We typed the exact command answers in the terminal.
+./Project.sh
+```
+8. The program started showing Linux command questions.
+<img width="635" height="481" alt="Screenshot 2025-12-06 101429" src="https://github.com/user-attachments/assets/1295ef0e-0b48-4097-81b4-63a51a0cc35a" />
 
-The program checked each answer and showed whether it was correct or wrong.
+9. We typed the exact command answers in the terminal.
+<img width="612" height="521" alt="Screenshot 2025-12-06 101502" src="https://github.com/user-attachments/assets/a297c7d4-5cc4-4632-aa1f-4b416a518634" />
 
-At the end, the program showed the final score.
+10. The program checked each answer and showed whether it was correct or wrong.
+    <img width="605" height="482" alt="Screenshot 2025-12-06 101539" src="https://github.com/user-attachments/assets/edc0e3c4-7067-42d5-bf77-db4c75774cdf" />
 
-We took screenshots of the program output.
 
-We uploaded the following to GitHub:
+11. At the end, the program showed the final score.
+<img width="177" height="53" alt="Screenshot 2025-12-06 101614" src="https://github.com/user-attachments/assets/3153109f-a6d1-4db9-b5fc-b0e7aed274e7" />
 
-The Bash script
 
-The screenshots
-
-The README file
 
   
